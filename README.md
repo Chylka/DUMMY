@@ -6,7 +6,7 @@
 
 - **NLU (Natural Language Understanding):** warstwa rozumienia języka naturalnego interpretuje tekst z komendy głosowej i rozpoznaje intencję użytkownika, np. `motion.forward`, `camera.left`, `gripper.grab` albo `system.stop`.
 
-- **SetFit:** lokalny model AI używany do klasyfikacji intencji komend głosowych. Model znajduje się w katalogu `robot_nlu_model/` i pozwala sterować robotem za pomocą **dowolnej, nie przewidzianej wcześniej komendy**.
+- **SetFit (Machine Learning):** lokalny model AI używany do klasyfikacji intencji komend głosowych. Model znajduje się w katalogu `robot_nlu_model/` i pozwala sterować robotem za pomocą **dowolnej, nie przewidzianej wcześniej komendy**.
 
 - **ITF (Intent-to-Function):** logika mapowania intencji na funkcje robota. Dzięki temu wynik NLU jest zamieniany na realne akcje: ruch silników, sterowanie kamerą, obsługę chwytaka, pozycję domową lub zatrzymanie awaryjne.
 
